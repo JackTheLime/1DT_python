@@ -1,0 +1,54 @@
+# J X Leong
+#25th August 2022
+#Focus- variables, labels, comments, data types.
+
+#Variables
+name = "J X Leong"
+height = 1.69
+address = "170 Asian street"
+phoneNumber = "0210929392"
+hasAllergy = False
+
+# A summary of this information should be printed out to the screen
+#output = print
+
+print(name)
+print(phoneNumber)
+print(address)
+print(height)
+print(hasAllergy)
+
+#Clarify the problem
+# name (var)
+fullName = "Jack Xavier Leong"
+firstName = "Jack."
+lastName = "Leong"
+title = "Master."
+
+# height expressed in metres
+height = 1.79
+
+# address
+# street number, street name, suburb, city
+
+address = "170 Asian street, Seatoun, Wellington"
+
+#phone number - mobile
+#stored as a string - no calculation is done on this number
+
+llNo = "021456789876543"
+print(llNo)
+
+#allergy
+#boolean
+hasAllergy = True
+
+#Design a solution / Algorithm
+#All data identified by way of variables are stored
+ 
+print("My name is", fullName, ". My first name is obviously", firstName, "but sometimes my mates call me", lastName, 
+"just for fun. When I get my mail ordered to me, it always is labelled", title, firstName, lastName, 
+"and normally gets addressed to", address, ". I have friends who call me on my mobile phone number", phoneNumber, 
+", but I do have an old grandma who calls our family on the landline number", llNo, 
+". Because the landline is so old, it is made of a material I am allergic to. I know it's", hasAllergy, 
+"I have an allergy. Thanks for reading this, all the best from", title, fullName, "." )
